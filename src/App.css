@@ -1,38 +1,196 @@
-.App {
+.nav-ul li{
+
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color:#fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(68, 101, 114);
+}
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 200px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -42px;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(68, 101, 114);
+  color: white;
+  height: 30px;
+}
+.copyright{
+  font-size: small;
+}
+.icons{
+  display: inline;
+  float: right;
+  margin-top: 8px;
+  padding-right: 10px;
+}
+
+.invalid-input{
+  color: red;
+  margin-right: 280px;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.invalid-company-input{
+  color: red;
+  margin-right: 210px;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.invalid-category-input{
+  color: red;
+  margin-right: 250px;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+
+
+.user-box input{
+
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+
+}
+
+/* Add some padding and center the SubTask header */
+h2 {
+  padding: 20px 0;
+  text-align: left;
+}
+
+/* Add some margin to the table and remove the default border-collapse */
+table {
+  margin: 2 auto;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  
+}
+
+/* Style the table header */
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style the table rows */
+tbody tr {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a hover effect to the table rows */
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Style the table cells */
+td {
+  padding: 10px;
+  vertical-align: middle;
+  border-top: 1px solid #ccc;
+}
+
+/* Style the checkbox inputs */
+input[type="checkbox"] {
+  margin: 0;
+}
+
+/* Style the task input */
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+/* Style the buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 7px 6px;
+  margin-left: 1px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the Add row button */
+.add-row {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-row button {
+  background-color: #f32121;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#delete{
+  background-color: red;
   color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 8px 5px;
+  margin-left: 3px;
+  font-size: 13px;
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
+.task-table {
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-table th,
+.task-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
 }
+
+.task-table th {
+  background-color: #f2f2f2;
+}
+
+
